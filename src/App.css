@@ -1,0 +1,20 @@
+html,
+body,
+canvas,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #333;
+}
+.button button {
+  transform: translate3d(50%, 50%, 0) translateY(-300px) translateX(-300px);
+  background: white;
+  color: grey;
+  padding: 10px 15px;
+  border-radius: 5px;
+
+  top: 50;
+  display: inline-block;
+}
